@@ -12,8 +12,8 @@ function App() {
   const [showButtonMusic, setShowButtonMusic] = useState(false);
   const [isMusicPlaying, setIsMusicPlaying] = useState(false);
 
-  const [imageSrc, setImageSrc] = useState('../public/img/musicon.svg');
-  const initImageSrc = '../public/img/musicon.svg';
+  const [imageSrc, setImageSrc] = useState('../public/img/musicon.jpg');
+  const initImageSrc = '../public/img/musicon.jpg';
   const audioRef = useRef(null);
 
   function handleMain() {
@@ -30,7 +30,7 @@ function App() {
       audioElement.play();
     }
     if (imageSrc === initImageSrc) {
-      setImageSrc('../public/img/musicoff.svg');
+      setImageSrc('../public/img/musicoff.jpg');
     } else {
       setImageSrc(initImageSrc);
     }

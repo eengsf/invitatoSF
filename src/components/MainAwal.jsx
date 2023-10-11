@@ -6,7 +6,7 @@ export default function MainAwal({ onClickButton }) {
           <>
                <main className='main-awal'>
                     <div className='main1-awal'>
-                         <img src="../public/img/birdnew.svg" alt="" className="bird" />
+                         <img src="../public/img/birdnew.jpg" alt="" className="bird" />
                          <div className="m1-awal">
                               <h6>THE WEDDING OF</h6>
                               <h2>Nailal and Via</h2>
